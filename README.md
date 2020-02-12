@@ -36,7 +36,7 @@ Webpack production mode
 
 The user can search a username of GitHub
 
-![](./src/screenshots/input)
+![](./src/screenshots/input.png)
 
 #### Success Screen
 

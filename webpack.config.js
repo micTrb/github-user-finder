@@ -60,7 +60,7 @@ module.exports = {
       filename: "./index.html",
       inject: 'body'
     }),
-    new MiniCssExtractPlugin(),
+    new MiniCssExtractPlugin({ filename: 'style-bundle.css' }),
   ],
   devServer: {  // configuration for webpack-dev-shared
     contentBase: './src/public',  //source of static assets
