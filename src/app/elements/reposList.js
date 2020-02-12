@@ -7,7 +7,7 @@ class ReposList {
   constructor(containerId, data) {
     this.container_id = containerId;
     this.repos_data = data;
-    this.table_init_template = '<table class="w3-table w3-bordered" id=${template_config.repos_list_table_id}></table>';
+    this.table_init_template = `<table class="w3-table w3-bordered" id=${template_config.repos_list_table_id}></table>`;
     this.no_repos_template = noReposTemplate;
   };
 
